@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="cs-cz">
+    <head>
+        <meta charset="utf-8 BOM" />
+        <meta name="description" content="Aktuální data z termokamery v systému AAL" />
+        <meta name="keywords" content="AAL, Ambient assisted living, Data z termokamery" />
+        <meta name="author" content="Lukáš Král" />
+        <link rel="shortcut icon" href="obrazky/ikona.webp" />
+        <title>AAL</title>
+        <link rel="stylesheet" href="styl.css" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <div id="logo"><img src="obrazky/AAL.jpg" alt="AAL" /></div>
+            <nav>
+                <ul>
+                    <li class="odsazeni" class="aktivni"><a href="AAL.html">Aktuální data</a></li>
+                    <li><a href="zaznam.html">Záznam událostí</a></li>
+                    <li><a href="system.html">O systému</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <article>
+                <header>
+                <div class="Problem"">
+                    <div id="Nadpisy"><h1>Data:</h1></div>
+                </div>
+                </header>
+            <div id="centrovac">
+                <section>
+                <script src="js/scripts.js"></script>
+                    <div id="status" class="margin"></div>
+                    <div class="margin">
+                        <button id="request_device" type="button">
+                            Bluetooth připojení
+                        </button>
+                        <button id="notifications" type="button">
+                            Příjem dat
+                        </button>
+                        <button id="disconect" type="button">Odpojení Bluetooth</button>
+                        <input type="color" id="color" />
+                        </div>
+                        <div class="margin">
+                            <div id="celsius"></div>
+                        </div>
+                    <div class="margin"><h3>Data</h3></div>
+                    <div class="log">
+                    <div id="log" class="margin"></div>
+                    </div>
+                </section>
+                <div class="cistic"></div>
+            </div>
+        </article>
+        
+        <footer>
+            Vytvořil &copy;Lukáš Král 13.2.2021</a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="cs-cz">
+
+	<head>
+        <meta charset="utf-8 BOM" />
+        <meta name="description" content="Popis použitého AAL systému" />
+        <meta name="keywords" content="AAL, Ambient assisted living, Wipy, AMG8833" />
+        <meta name="author" content="Lukáš Král" />
+        <link rel="shortcut icon" href="obrazky/ikona.webp" />
+        <title>O systému</title>
+        <link rel="stylesheet" href="styl.css" type="text/css" />
+	</head>
+
+	<body>
+		<header>
+			<div id="logo"><img src="obrazky/AAL.jpg" alt="AAL" /></div>
+			<nav>
+				<ul>
+					<li><a href="AAL.html">Aktuální data</a></li>
+                    <li><a href="zaznam.html">Záznam událostí</a></li>
+                    <li class="aktivni"><a href="system.html">O systému</a></li>
+				</ul>
+			</nav>
+		</header>
+	
+		<article>
+				<header>	
+					<div id="Nadpisy"><h1>Systém:</h1></div>
+				</header>
+			<div id="centrovac">
+				<section>
+					<table id="system">
+						<tr>
+							<td>
+								<h4>Wipy 3.0</h4>
+                                <div id="odkaz"><a href="https://docs.pycom.io/datasheets/development/wipy3/#app" target="_blank">Wipy 3.0</a></div>
+								<p>Jádrem systému je Wipy 3.0, který pracuje v jazyce MicroPython. Přijímá data z termokamery a posílá je přes bluetooth do mobilního telefonu.</p></div>
+							</td>
+							<td>
+								<h4>AMG8833</h4>
+                                <div id="odkaz2"><a href="https://cz.farnell.com/panasonic-electronic-components/amg8833/temperature-sensor-ir-2-5deg-c/dp/2576419?gclid=CjwKCAiAsaOBBhA4EiwAo0_AnA6eVSpGmIbuVdC7UAC357ZQDrqNLFL5VwDUqEZgyWlsp9At_koY7hoCksEQAvD_BwE&mckv=s3xWa2vCb_dc|pcrid|263421718716|kword|amg8833|match|p|plid||slid||product||pgrid|56965998147|ptaid|kwd-317801711984|&CMP=KNC-GCZ-GEN-SKU-MDC" target="_blank">AMG 8833</a>
+								<p>Použitá termokamera je firmy Adafruit AMG8833. AMG8833 má teplotní matici o velikosti 8x8.</p>
+							</td>
+						</tr>
+                        <tr class="centrovany">
+							<td>
+								<img src="obrazky/wipy.png" alt="wipy" />
+							</td>
+							<td>
+								<img src="obrazky/amg.png" alt="amg" />
+							</td>
+						</tr>
+					</table>
+				</section>
+				<div class="cistic"></div>
+			</div>
+		</article>
+		
+		
+		<footer>		
+            Vytvořil &copy;Lukáš Král 13.2.2021</a>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,162 @@
+h1 {
+    font: 36px Arial;
+    text-shadow: 3px 3px 5px #666666;
+    text-align: center;
+    color: white;
+}
+h6{
+    font: 20px Arial;
+    text-align: center;
+}
+h3{
+    font: 30px Arial;
+}
+h5{
+    font: 20px Arial;
+}
+h4{
+    font: 30px Arial;
+    text-align: center;
+}
+h2{
+    font: 30px Arial;
+    text-shadow: 1px 1px 1px #666666;
+}
+.centrovany {
+    text-align: center;
+    margin: -20px 30px 0px 0px;
+}
+.odsazeni{
+    margin: 0 50px;
+}
+body {
+    background: url('obrazky/pozadi4.png') #009aca;
+    margin : 0px;
+    font: 14px Verdana;
+    min-width: 960px;
+}
+header {
+    height: 99px;
+}
+#logo {
+    background: url('obrazky/pozadi4.png') no-repeat;
+    width: 250px;
+    height: 80px;
+    float: left;
+    margin: -14px 30px 0px 0px; 
+}
+#centrovac {
+    margin: 0px auto;
+    width: 960px;
+}
+#Nadpisy {
+    float: left;
+    padding: 0px 80px;
+    margin: 0px auto;
+}
+#wipy {
+	float: left;  
+    margin: 20px 20px 20px 50px; 
+}
+#amg {
+    width: 960px;
+    height: 550px;
+    float: left;
+    margin:-400px 200px 200px 500px; 
+}
+#odkaz {
+    margin: 0px auto;
+}
+#odkaz2 {
+    margin: 0px auto;
+}
+article{
+    background: url('obrazky/pozadi3.png') #009aca;
+    padding: 20px 0px;
+}
+article header {
+    height: 73px;
+    width: 250px;
+	float: left;  
+	position: fixed;
+    top: 0px;
+    margin: 100px 0px 0px 0px;
+	background: none;
+}
+article section {
+    background: white;
+    width: 960px;
+    height: 560px;
+    float: left;
+    border: 2px solid #006797;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px #1c2228;
+}
+nav ul {
+	position: fixed;
+    top: 0px;
+    margin: 0px 0px 0px 250px;
+    list-style-type: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav{
+    top: 0px;
+    list-style-type: none;
+}
+nav ul li {
+    float: left;
+    padding: 0px 80px;
+    margin: 0 50px;
+    font-size: 20px;
+    height: 99px;
+    line-height: 4.3em;
+}
+nav ul li:hover, .aktivni {
+    background: #ffbb00;
+    box-shadow: 0px 0px 5px black;
+}
+nav{
+    min-width: 960px;
+}
+footer {
+    height: 30px;
+    color: white;
+    margin: 20px 0 0 1250px;
+}
+.cistic {
+    clear: both;
+}
+#system td{
+    width: 50%;
+    padding: 26px;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px #1c2228;
+    
+}
+#system {
+	border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #1c2228;
+}
+.log {
+  background-color: #232323;
+  color: white;
+  width: 920px;
+  height: 360px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+.margin {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
